@@ -11298,3 +11298,15 @@ header .search-bar {
 .semi-bold {
   font-weight: 600;
 }
+
+.jumbotron {
+  height: 400px;
+}
+.jumbotron img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
