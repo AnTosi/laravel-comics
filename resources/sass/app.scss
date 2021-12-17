@@ -121,3 +121,91 @@ button {
         height: 50px;
     }
 }
+
+.page_bottom{
+    height: 110px;
+    button {
+      border-style: none;
+      border: 2px solid $main-blue;
+      padding: 0.7rem;
+      color: white;
+      font-size: 0.9rem;
+      font-weight: 700;
+    }
+  
+    img {
+      height: 40px;
+    }
+    .right-bottom {
+      justify-content: right;
+      align-items: center;
+      color: $main-blue;
+      font-weight: 700;
+      font-size: 1rem;
+    }
+}
+
+footer {
+
+    .links {
+        background-image: url('../img/footer-bg.jpg');
+        background-size: cover;
+        height: 415px;
+        flex-wrap: wrap;
+        position: relative;
+      
+        .container {
+          height: 415px;
+            h3 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-top: 1rem;
+            margin-bottom: 0.7rem;
+            color: white;
+            }
+            ul {
+                list-style-type: none;
+                margin-block-start: 0;
+                margin-block-end: 0;
+                padding-inline-start: 0;
+            
+                li {
+                list-style: none;
+                padding-left: 0;
+                color: grey;
+                padding-bottom: 5px;
+                font-size: 0.8rem;
+                display: block;
+                font-family: 'Open Sans', sans-serif;
+                }
+            }
+            
+            .links-wrapper {
+            text-align: left;
+            align-items: flex-start;
+            height: 355px;
+            padding-top: 1.5rem;
+            }
+            .link-sub-area {
+            height: fit-content;
+            }
+        }
+    }
+    .dc_fat_logo {
+        height: 415px;
+        width: 66%;
+        background-image: url('../img/dc-logo-bg.png');
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: 50%;
+        position: absolute;
+        top: 0;
+        right:20%;
+    }
+
+    .copyrights {
+        color: grey;
+        font-size: 0.8rem;
+        margin-top: -40px;
+    }
+}

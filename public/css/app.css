@@ -11352,3 +11352,88 @@ button.blue_button {
 .blueband_container img {
   height: 50px;
 }
+
+.page_bottom {
+  height: 110px;
+}
+.page_bottom button {
+  border-style: none;
+  border: 2px solid #0282F9;
+  padding: 0.7rem;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+.page_bottom img {
+  height: 40px;
+}
+.page_bottom .right-bottom {
+  justify-content: right;
+  align-items: center;
+  color: #0282F9;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+footer .links {
+  background-image: url("../img/footer-bg.jpg");
+  background-size: cover;
+  height: 415px;
+  flex-wrap: wrap;
+  position: relative;
+}
+footer .links .container {
+  height: 415px;
+}
+footer .links .container h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 0.7rem;
+  color: white;
+}
+footer .links .container ul {
+  list-style-type: none;
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+}
+footer .links .container ul li {
+  list-style: none;
+  padding-left: 0;
+  color: grey;
+  padding-bottom: 5px;
+  font-size: 0.8rem;
+  display: block;
+  font-family: "Open Sans", sans-serif;
+}
+footer .links .container .links-wrapper {
+  text-align: left;
+  align-items: flex-start;
+  height: 355px;
+  padding-top: 1.5rem;
+}
+footer .links .container .link-sub-area {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+footer .dc_fat_logo {
+  height: 415px;
+  width: 66%;
+  background-image: url("../img/dc-logo-bg.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 50%;
+  position: absolute;
+  top: 0;
+  right: 20%;
+}
+footer .copyrights {
+  color: grey;
+  font-size: 0.8rem;
+  margin-top: -40px;
+}
