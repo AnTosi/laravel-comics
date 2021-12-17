@@ -63,18 +63,18 @@
         </div>
         
     </div>
-    <div class="page_bottom bg_dark">
-        <div class="container py-4 d-flex align-items-center">
+    <div class="page_bottom bg-dark">
+        <div class="container d-flex align-items-center h-100">
             <div class="col-6 left-bottom">
-            <button>SIGN-UP NOW!</button>
+                <button>SIGN-UP NOW!</button>
             </div>
             <div class="col-6 right-bottom d-flex align-items-center">
-            <span class="mx-2">FOLLOW US</span>
-            <img class="mx-2" src="{{'img/footer-facebook.png'}}" alt="">
-            <img class="mx-2" src="{{'img/footer-twitter.png'}}" alt="">
-            <img class="mx-2" src="{{'img/footer-youtube.png'}}" alt="">
-            <img class="mx-2" src="{{'img/footer-pinterest.png'}}" alt="">
-            <img class="mx-2" src="{{'img/footer-periscope.png'}}" alt="">
+                <span class="mx-2">FOLLOW US</span>
+                <img class="mx-2" src="{{'img/footer-facebook.png'}}" alt="">
+                <img class="mx-2" src="{{'img/footer-twitter.png'}}" alt="">
+                <img class="mx-2" src="{{'img/footer-youtube.png'}}" alt="">
+                <img class="mx-2" src="{{'img/footer-pinterest.png'}}" alt="">
+                <img class="mx-2" src="{{'img/footer-periscope.png'}}" alt="">
             </div>
         </div>
     </div>

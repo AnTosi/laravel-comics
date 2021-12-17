@@ -73,7 +73,8 @@ header {
     font-weight: 600;
 }
 
-.jumbotron {
+main {
+    .jumbotron {
         height: 400px;
          img {
         width: 100%;
@@ -81,58 +82,61 @@ header {
         object-fit: cover;
         object-position: top;
         }
-}
-
-.blue_title {
-    background-color: $main-blue;
-    color: white;
-    font-size: 1.2rem;
-    font-weight: 700;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate(0, -50%);
-
-}
-
-.comics_container {
-    img {
-        width: 185px;
-        height: 185px;
-        object-fit: cover;
-        object-position: top;
     }
-}
 
-button {
-    width: 180px;
-    height: 30px;
-    border: none;
-    &.blue_button {
+    .blue_title {
         background-color: $main-blue;
         color: white;
+        font-size: 1.2rem;
+        font-weight: 700;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(0, -50%);
+
+    }
+
+    .comics_container {
+        img {
+            width: 185px;
+            height: 185px;
+            object-fit: cover;
+            object-position: top;
+        }
+    }
+
+    button {
+        width: 180px;
+        height: 30px;
+        border: none;
+        &.blue_button {
+            background-color: $main-blue;
+            color: white;
+        }
+    }
+
+    .blueband_container {
+        color: white;
+        background-color: $main-blue;
+        img {
+            height: 50px;
+        }
     }
 }
 
-.blueband_container {
-    color: white;
-    background-color: $main-blue;
-    img {
-        height: 50px;
-    }
-}
 
 .page_bottom{
     height: 110px;
     button {
-      border-style: none;
-      border: 2px solid $main-blue;
-      padding: 0.7rem;
-      color: white;
-      font-size: 0.9rem;
-      font-weight: 700;
+        border-style: none;
+        border: 2px solid $main-blue;
+        padding: 0.7rem;
+        color: white;
+        font-size: 0.9rem;
+        font-weight: 700;
+        background-color: transparent;
     }
-  
+
     img {
       height: 40px;
     }
@@ -208,4 +212,5 @@ footer {
         font-size: 0.8rem;
         margin-top: -40px;
     }
+
 }
