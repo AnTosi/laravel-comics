@@ -11251,6 +11251,10 @@ textarea.form-control-lg {
   color: #0282F9;
 }
 
+.col-20 {
+  width: 20%;
+}
+
 li {
   list-style: none;
 }
@@ -11320,4 +11324,31 @@ header .search-bar {
   top: 0;
   left: 0;
   transform: translate(0, -50%);
+}
+
+.comics_container img {
+  width: 185px;
+  height: 185px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
+button {
+  width: 180px;
+  height: 30px;
+  border: none;
+}
+button.blue_button {
+  background-color: #0282F9;
+  color: white;
+}
+
+.blueband_container {
+  color: white;
+  background-color: #0282F9;
+}
+.blueband_container img {
+  height: 50px;
 }
