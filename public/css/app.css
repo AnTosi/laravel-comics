@@ -11247,9 +11247,48 @@ textarea.form-control-lg {
   background-color: #0282F9;
 }
 
+.text_main-blue {
+  color: #0282F9;
+}
+
+li {
+  list-style: none;
+}
+li a {
+  text-decoration: none;
+  color: inherit;
+  line-height: 80px;
+}
+li a:hover {
+  color: inherit;
+}
+
 header div.upper_band {
   color: white;
   font-size: 0.8rem;
+}
+header .nav-container {
+  height: 120px;
+}
+header img {
+  height: 80px;
+}
+header ul {
+  margin-bottom: 0;
+}
+header ul li {
+  height: 120px;
+  line-height: 120px;
+  vertical-align: middle;
+}
+header ul li.active {
+  color: #0282F9;
+  border-bottom: 5px solid #0282F9;
+}
+header .search-bar {
+  width: 10%;
+  border-bottom: 3px solid #0282F9;
+  text-align: right;
 }
 
 .half-rem {

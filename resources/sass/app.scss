@@ -6,9 +6,59 @@ $main-blue: #0282F9;
     background-color: $main-blue;
 }
 
-header div.upper_band {
+.text_main-blue {
+    color: $main-blue;
+}
+
+li {
+    list-style: none;
+    a {
+        text-decoration: none;
+        color: inherit;
+        line-height: 80px;
+    }
+
+    a:hover {
+        color: inherit;
+    }
+}
+
+header {
+    div.upper_band {
     color: white;
     font-size: 0.8rem;
+    }
+
+    .nav-container {
+        height: 120px;
+    }
+
+    img {
+        height: 80px;
+    }
+
+    ul {
+        margin-bottom: 0;
+
+        li {
+            height: 120px;
+            line-height: 120px;
+            vertical-align: middle;
+    
+            &.active {
+                color: $main-blue;
+                border-bottom: 5px solid $main-blue;
+            }
+    
+        }
+    }
+
+    .search-bar {
+        width: 10%;
+        border-bottom: 3px solid $main-blue;
+        text-align: right;
+    }
+
 }
 
 .half-rem {
