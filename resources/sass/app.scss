@@ -78,3 +78,15 @@ header {
         object-position: top;
         }
 }
+
+.blue_title {
+    background-color: $main-blue;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(0, -50%);
+
+}
