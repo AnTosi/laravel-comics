@@ -11243,3 +11243,19 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.bg_main-blue {
+  background-color: #0282F9;
+}
+
+header div.upper_band {
+  color: white;
+  font-size: 0.8rem;
+}
+
+.half-rem {
+  font-size: 0.5rem;
+}
+
+.semi-bold {
+  font-weight: 600;
+}
