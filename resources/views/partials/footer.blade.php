@@ -70,11 +70,11 @@
             </div>
             <div class="col-6 right-bottom d-flex align-items-center">
                 <span class="mx-2">FOLLOW US</span>
-                <img class="mx-2" src="{{'img/footer-facebook.png'}}" alt="">
-                <img class="mx-2" src="{{'img/footer-twitter.png'}}" alt="">
-                <img class="mx-2" src="{{'img/footer-youtube.png'}}" alt="">
-                <img class="mx-2" src="{{'img/footer-pinterest.png'}}" alt="">
-                <img class="mx-2" src="{{'img/footer-periscope.png'}}" alt="">
+                <img class="mx-2" src="{{'../img/footer-facebook.png'}}" alt="">
+                <img class="mx-2" src="{{'../img/footer-twitter.png'}}" alt="">
+                <img class="mx-2" src="{{'../img/footer-youtube.png'}}" alt="">
+                <img class="mx-2" src="{{'../img/footer-pinterest.png'}}" alt="">
+                <img class="mx-2" src="{{'../img/footer-periscope.png'}}" alt="">
             </div>
         </div>
     </div>

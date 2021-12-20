@@ -2,9 +2,15 @@ $main-blue: #0282F9;
 $light_blue: #00A9D9;
 $dark_blue: #003F5E;
 $box-green: #55BA59;
+$light-grey: #F6F6F6;
+$border-grey: rgba(128, 128, 128, 0.400);
 
 .bg_main-blue {
     background-color: $main-blue;
+}
+
+.bg_light-grey {
+    background-color: $light-grey;
 }
 
 .text_main-blue {
@@ -267,4 +273,76 @@ footer {
     background-color: $main-blue;
     height: 80px;
     position: relative;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: darkblue;
+}
+
+.commercial_info {
+    background-color: $box-green;
+    font-size: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.568);
+    .right {
+        border-left: 1px solid rgba(0, 0, 0, 0.568);
+        padding-left: 1.5rem;
+    }
+
+
+}
+
+
+.grey_info {
+    background-color: $light-grey;
+    height: 375px;
+
+    .left {
+        padding-right: 2rem;
+    }
+
+    h4 {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: $dark_blue;       
+        border-bottom: 1px solid $border-grey;
+    }
+
+    
+
+    .credit {
+        border-bottom: 1px solid $border-grey;
+
+        .title {
+            color: $dark_blue;
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+
+        .people {
+            color: $main-blue;            
+        }
+    }
+}
+
+.shop_links {
+    border-top: 1px solid $border-grey;
+    font-weight: 700;
+    opacity: 0.7;
+
+    .cta_container {
+
+        border-left: 1px solid $border-grey;
+
+        .cta {
+            height: 45px;
+            filter: grayscale(1);
+            opacity: 0.35;
+        }
+
+        &.last {
+            border-right: 1px solid $border-grey;
+        }
+    }
 }
