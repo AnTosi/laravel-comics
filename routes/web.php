@@ -18,7 +18,10 @@ Route::get('/', function (){
     return view('welcome', compact('comics'));
 })->name('welcome');
 
-Route::get('/actioncomic', function (){
+Route::get('comics/{index}', function ($index){
     $comics = config('db.comics');
-    return view('actioncomic', compact('comics'));
-})->name('actioncomic');
+
+    $comic = $comics[$index];
+
+    return view('comics.show', compact('comic'));
+})->name('comic');
