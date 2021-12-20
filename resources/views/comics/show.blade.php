@@ -20,4 +20,10 @@
     </div>
 </div>
 
+<div class="container">
+    <h3>
+        {{$comic['title']}}
+    </h3>
+</div>
+
 @endsection
