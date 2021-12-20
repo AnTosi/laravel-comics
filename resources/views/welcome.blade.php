@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section ('page-title', 'welcome')
+@section ('page-title', 'comics')
 
 @section('content')
 <div class="jumbotron">
