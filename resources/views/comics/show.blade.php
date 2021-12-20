@@ -5,6 +5,10 @@
 @section('content')
 
 <div class="bg_jumbotron">
+    
+</div>
+
+<div class="blue_band">
     <div class="container_half position-relative">
         <div class="poster">
             <div class="img_container">

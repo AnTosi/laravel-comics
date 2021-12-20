@@ -222,7 +222,7 @@ footer {
 
     .poster {
         position: absolute;
-        bottom: 0;
+        bottom: 20px;
         left: 0;
         border: 1px solid white;
 
@@ -259,4 +259,10 @@ footer {
     background-size: cover;
     background-position: top;
 
+}
+
+.blue_band {
+    background-color: $main-blue;
+    height: 80px;
+    position: relative;
 }

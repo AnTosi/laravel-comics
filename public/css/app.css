@@ -197,7 +197,7 @@ footer .copyrights {
 }
 .container_half .poster {
   position: absolute;
-  bottom: 0;
+  bottom: 20px;
   left: 0;
   border: 1px solid white;
 }
@@ -228,4 +228,10 @@ footer .copyrights {
   height: 400px;
   background-size: cover;
   background-position: top;
+}
+
+.blue_band {
+  background-color: #0282F9;
+  height: 80px;
+  position: relative;
 }
