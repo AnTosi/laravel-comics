@@ -189,3 +189,42 @@ footer .copyrights {
   font-size: 0.8rem;
   margin-top: -20px;
 }
+
+.container_half {
+  width: 60%;
+  height: 100%;
+  margin: auto;
+}
+.container_half .poster {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.container_half .poster .img_container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.container_half .poster .img_container .label {
+  position: absolute;
+  background-color: #00A9D9;
+  color: white;
+  padding: 0.1rem 0.5rem;
+}
+.container_half .poster .img_container .label.top_left {
+  top: 0;
+  left: 0;
+}
+.container_half .poster .img_container .label.bottom {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.bg_jumbotron {
+  background-image: url("../img/jumbotron.jpg");
+  height: 400px;
+  background-size: cover;
+  background-position: top;
+}

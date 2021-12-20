@@ -4,8 +4,16 @@
 
 @section('content')
 
-<div class='comic'>
-    <div class="poster">
-        {{ddd($comic)}}
+<div class="bg_jumbotron">
+    <div class="container_half position-relative">
+        <div class="poster">
+            <div class="img_container">
+                <div class="label top_left">COMIC BOOK</div>
+                <div class="label bottom">VIEW GALLERY</div>
+                <img src="{{$comic['thumb']}}" alt="">
+            </div>
+        </div>
     </div>
 </div>
+
+@endsection

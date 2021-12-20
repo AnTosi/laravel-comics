@@ -4,7 +4,7 @@
 
 @section('content')
 <div class="jumbotron">
-    <img src="{{ 'img/jumbotron.jpg' }}" alt="">
+    <img src="{{ '../img/jumbotron.jpg' }}" alt="">
 </div>
 
 <div class="bg-black">

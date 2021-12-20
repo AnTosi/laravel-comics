@@ -11,7 +11,7 @@
     </div>
 
     <div class="container d-flex justify-content-between align-items-center nav-container">
-            <img src="{{'img/dc-logo.png'}}" alt="">
+            <img src="{{'../img/dc-logo.png'}}" alt="">
             <nav>
                 <ul class="d-flex">
                     <li class="mx-3 semi-bold"><a href="#">CHARACTERS</a></li>
