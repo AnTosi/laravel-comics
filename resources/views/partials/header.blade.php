@@ -15,7 +15,7 @@
             <nav>
                 <ul class="d-flex">
                     <li class="mx-3 semi-bold"><a href="#">CHARACTERS</a></li>
-                    <li class="mx-3 semi-bold active"><a href="#">COMICS</a></li>
+                    <li class="mx-3 semi-bold active"><a href="/">COMICS</a></li>
                     <li class="mx-3 semi-bold"><a href="#">MOVIES</a></li>
                     <li class="mx-3 semi-bold"><a href="#">TV</a></li>
                     <li class="mx-3 semi-bold"><a href="#">GAMES</a></li>
